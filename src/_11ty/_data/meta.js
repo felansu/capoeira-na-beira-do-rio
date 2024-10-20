@@ -7,7 +7,7 @@ module.exports = {
   siteName: "Minimalism",
   shortName: "Minimalism",
   motto: "Simplicity is the ultimate sophistication.",
-  authorName: "Autore",
+  authorName: "Ferran da maré",
   siteDescription: "",
   sitekeyword: "",
   creationDate: "02/02/2022", // change this data
