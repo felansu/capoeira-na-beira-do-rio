@@ -1,32 +1,23 @@
 module.exports = {
-  //
-  // Website Meta
-  //  
-  language: "it-IT",
-  lang: "it",
-  siteName: "Minimalism",
-  shortName: "Minimalism",
-  motto: "Simplicity is the ultimate sophistication.",
+  language: "pt-BR",
+  lang: "br",
+  siteName: "Capoeira na beira do rio",
+  shortName: "CBR",
+  motto: "Blog pessoal dedicado ao estudo da capoeira",
   authorName: "Ferran da maré",
-  siteDescription: "",
-  sitekeyword: "",
-  creationDate: "02/02/2022", // change this data
-  url: process.env.URL || "https://www.marcomicale.eu", // change this url
+  siteDescription: "Blog pessoal dedicado ao estudo da capoeira",
+  sitekeyword: "capoeira barcelona angola",
+  creationDate: "20/10/2024",
+  url: process.env.URL || "https://capoeira-na-beira-do-rio.netlify.app",
   robots: "index, follow",
-  //
-  // Color App
-  //
+
   themeColor: "#000000",
   backgroundColor: "#000000",
-  //
-  // Contact me
-  //
-  mail: "marcomicale@gmail.com",
+
+  mail: "gaferran@gmail.com",
   telephone: "",
-  //
-  // Social Network
-  //
-  twitterUser: "", 
+
+  twitterUser: "",
   facebookUser: "",
   githubUser: "",
   telegramkUser: "",

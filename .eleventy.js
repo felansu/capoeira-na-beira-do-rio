@@ -35,9 +35,13 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
     if (outputPath.endsWith(".html")) {
       return htmlmin.minify(content, {
+       removeComments: true,
         collapseWhitespace: true,
-        removeComments: true,
+        removeRedundantAttributes: true,
         useShortDoctype: true,
+        removeEmptyAttributes: true,
+        minifyCSS: true,
+        minifyJS: true,
       });
     }
     return content;
