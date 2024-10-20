@@ -3,7 +3,6 @@ module.exports = {
   lang: "br",
   siteName: "Capoeira na beira do rio",
   shortName: "CBR",
-  motto: "Blog pessoal dedicado ao estudo da capoeira",
   authorName: "Ferran da maré",
   siteDescription: "Blog pessoal dedicado ao estudo da capoeira",
   sitekeyword: "capoeira barcelona angola",
@@ -15,11 +14,5 @@ module.exports = {
   backgroundColor: "#000000",
 
   mail: "gaferran@gmail.com",
-  telephone: "",
-
-  twitterUser: "",
-  facebookUser: "",
-  githubUser: "",
-  telegramkUser: "",
-  linkedinkUser: "",
+  instagram: "ferrandamare",
 };
