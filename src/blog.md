@@ -1,12 +1,12 @@
 ---
-title: Blog
+title: Músicas
 layout: blog.njk
 keyword: test
 permalink: '{{ title | slugify }}.html'
 eleventyNavigation:
   key: "{{ title | slugify }}"
-  title: Blog
-  order: 3
+  title: Músicas
+  order: 2
 ---
 
 # Blog

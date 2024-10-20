@@ -28,7 +28,7 @@
   .title {
     @apply text-center font-extrabold text-3xl;
   }
-  .motto {
+  .description {
     @apply tracking-wide text-center;
   }
   nav {
@@ -48,7 +48,7 @@
   }
   main,
   article {
-    @apply prose prose-sky dark:prose-invert dark:prose-p:text-slate-50 dark:prose-li:text-slate-50 dark:prose-lead:text-slate-100 prose-lead:font-light mx-auto text-justify my-2;
+    @apply prose prose-sky dark:prose-invert dark:prose-p:text-slate-50 dark:prose-li:text-slate-50 dark:prose-lead:text-slate-100 prose-lead:font-light mx-auto text-justify my-0; /* Cambiado a my-0 para eliminar márgenes verticales */
   }
   h1,
   article > small.info {
@@ -58,7 +58,7 @@
     @apply mt-2;
   }
   .elenco-posts {
-    @apply flex flex-col gap-5 divide-y divide-solid divide-zinc-300 dark:divide-zinc-800 list-none list-outside pl-0;
+    @apply flex flex-col gap-5 divide-y divide-solid divide-zinc-300 dark:divide-zinc-800 list-none list-outside pl-0 mt-0; /* Añadido mt-0 para eliminar el margen superior */
   }
   .posts > h2 > a {
     @apply no-underline font-extrabold;
@@ -97,12 +97,12 @@
   }
   main,
   article {
-    @apply my-2.5;
+    @apply my-2.5; /* Puedes ajustar esto si deseas un margen vertical */
   }
   .title {
     @apply text-4xl;
   }
-  .motto {
+  .description {
     @apply text-center;
   }
   .elenco-posts {
@@ -126,7 +126,7 @@
   .title {
     @apply text-left text-5xl;
   }
-  .motto {
+  .description {
     @apply text-left;
   }
   nav {
@@ -137,7 +137,7 @@
   }
   main,
   article {
-    @apply my-3;
+    @apply my-3; /* Puedes ajustar esto si deseas un margen vertical */
   }
   h1,
   article > small.info {
@@ -169,7 +169,7 @@
   }
   main,
   article {
-    @apply max-w-screen-md my-4;
+    @apply max-w-screen-md my-4; /* Ajustar según sea necesario */
   }
   .social {
     @apply grow-0 gap-8 justify-end;
@@ -188,7 +188,7 @@
   }
   main,
   article {
-    @apply max-w-screen-lg my-5;
+    @apply max-w-screen-lg my-5; /* Ajustar según sea necesario */
   }
   .social {
     @apply grow-0 gap-9 justify-end;
